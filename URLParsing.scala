@@ -1,4 +1,3 @@
-package Assignment2
 
 object URLParsing {
   def main(args: Array[String]): Unit = {

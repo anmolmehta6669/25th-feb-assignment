@@ -1,8 +1,4 @@
-package Assignment2
 
-/**
-  * Created by Anil Mehta on 26-01-2017.
-  */
 object URL {
   def apply(protocal:String,domain:String,path:String, params:Map[String,String]):String = {
     protocal + "://" + domain + "/" + path + "?" + params.map(x=>x._1 + "=" + x._2).toString
